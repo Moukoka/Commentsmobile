@@ -30,4 +30,5 @@ dependencies {
     compile 'org.springframework.android:spring-android-rest-template:2.0.0.M3'
     compile files('libs/gson-2.2.2.jar')
     compile 'com.fasterxml.jackson.core:jackson-databind:2.3.2'
+    compile 'joda-time:joda-time:2.9.5'
 }
