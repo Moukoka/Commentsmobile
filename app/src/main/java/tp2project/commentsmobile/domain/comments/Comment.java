@@ -103,8 +103,8 @@ public class Comment implements Serializable {
             return this;
         }
 
-        @JsonProperty("commentIdOrResponseId")
-        public Builder getCommentIdOrResponseId(String commentIdOrResponseId){
+        @JsonProperty("ipaddress")
+        public Builder getIpaddress(String ipaddress){
             this.ipaddress = ipaddress;
             return this;
         }
